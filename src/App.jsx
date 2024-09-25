@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 function App() {
-  const [counter, setCounter] = useState(5);
+  const [counter, setCounter] = useState(0);
 
   const addValue = () => {
     if(counter<10) setCounter(counter + 1);
